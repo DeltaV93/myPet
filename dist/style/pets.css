@@ -1,0 +1,20 @@
+.jumbotron {
+    /*background-image: url("img/download.jpg");*/
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* bottom, image */
+    url(img/download.jpg);    
+    color: #fff;
+}
+.btn-primary {
+    background-color: pink;
+    border-color: pink;
+}
+.btn-primary:hover {
+    background-color: #ca8994;
+    border-color: #ca8994;
+}
